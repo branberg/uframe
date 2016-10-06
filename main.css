@@ -4,13 +4,16 @@ body {
   padding: 0;
   color: #2d2d2d;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 300; }
+  font-weight: 300;
+}
 
 a {
-  color: #000000; }
+  color: #000000;
+}
 
 h1 {
-  margin-top: 0; }
+  margin-top: 0;
+}
 
 /*************************************
 CONTROLS
@@ -23,7 +26,8 @@ CONTROLS
   left: 0;
   top: 0;
   height: 100%;
-  overflow-y: auto; }
+  overflow-y: auto;
+}
 
 #logo {
   color: #ffffff;
@@ -32,13 +36,15 @@ CONTROLS
   display: block;
   font-size: 3.5em;
   padding: 25px 0;
-  line-height: 0.8em; }
+  line-height: 0.8em;
+}
 
 label {
   display: block;
   font-weight: 700;
   font-size: 0.9em;
-  margin-bottom: 5px; }
+  margin-bottom: 5px;
+}
 
 input,
 textarea {
@@ -48,30 +54,43 @@ textarea {
   width: 230px;
   font-weight: 300;
   font-size: 0.85em;
-  margin-bottom: 15px; }
+  margin-bottom: 15px;
+}
 
 textarea {
-  height: 120px; }
+  height: 120px;
+}
 
 input[type="submit"] {
   background: black;
   color: white;
   width: 100%;
   cursor: pointer;
-  margin-top: 15px; }
+  margin-top: 15px;
+}
 
 #credits {
   margin-top: 25px;
   font-size: 0.8em;
-  color: #aaaaaa; }
-  #credits a {
-    color: #aaaaaa; }
-    #credits a:hover {
-      color: #333; }
+  color: #aaaaaa;
+}
+#credits a {
+  color: #aaaaaa;
+}
+#credits a:hover {
+  color: #333;
+}
 
 /*************************************
 PREVIEW
 *************************************/
 #preview_wrap {
   margin-left: 300px;
-  padding: 80px; }
+  padding: 80px;
+}
+
+#preview_frame.submitted iframe{
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}
